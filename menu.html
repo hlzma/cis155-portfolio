@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+    <!--
+        OC CIS 155 Web Development I
+        Build on Concepts Project #3 (indicate which project this is for)
+
+        Student Name:   Heatherlynn Lizama
+        Date:           October 27, 2018
+
+        Filename: index.html
+        Supporting files: sb.css, sbstyles.css, sblogo.png
+    -->
+
+    <meta charset="UTF-8" />
+    <meta name="description" content="A menu of what we serve at Marianas Pacific Foods!" />
+    <meta name="keywords" content="Menu, Mariana Islands, Pacific, Food, Island Food, BBQ, Micronesia" />
+    <meta name="author" content="Heatherlynn Lizama" />
+
+    <title>Menu - Marianas Pacific Foods</title>
+
+    <link href="sb.css" type="text/css" rel="stylesheet" />
+    <link href="mystyles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html"><img src="images/logo.png" alt="Marianas Pacific Foods" /></a> <!-- logo is created and designed by me using photoshop. -->
+        </header>
+        <nav id="siteNav">
+            <ul>
+                <li class="newTopic"><a href="index.html">Home</a></li>
+                <li class="newTopic"><a href="menu.html">Plates</a></li>
+                <li class="newTopic"><a href="menu.html#sides">Sides</a></li>
+                <li class="newTopic"><a href="menu.html#desserts">Desserts</a></li>
+                <li class="newTopic"><a href="about.html">About</a></li>
+                <li class="newTopic"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <section id="menu">
+            <h2><a id="plates">Plates</a></h2> <!-- Nested within the section, add a heading element that occupies the top of the section. -->
+            <table class="plates"> <!-- table -->
+                <tr>
+                    <th class="plateTitle">BBQ Chicken Plate</th>
+                    <th class="plateTitle">BBQ Ribs Plate</th>
+                    <th class="plateTitle">Breaded Shrimp Plate</th>
+                </tr>
+                <tr>
+                    <td class="plateImage"><img src="images/plate_bbq_chicken.jpg" alt="" /></td>
+                    <td class="plateImage"><img src="images/plate_bbq_ribs.jpg" alt="" /></td>
+                    <td class="plateImage"><img src="images/plate_breaded_shrimp.jpg" alt="" /></td>
+                </tr>
+                <tr>
+                    <td class="summary">Red Rice<br />BBQ Chicken<br />Cucumber Salad<br />Chicken Kelaguen</td>
+                    <td class="summary">Red Rice<br />BBQ Ribs<br />Cucumber Salad<br />Chicken Kelaguen</td>
+                    <td class="summary">Red Rice<br />Breaded Shrimp<br />Cucumber Salad</td>
+                </tr>
+                <tr>
+                    <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                    <th class="plateTitle">Kelaguen Plate</th>
+                    <th>&nbsp;</th>
+                    <th>&nbsp;</th>
+                </tr>
+                <tr>
+                    <td class="plateImage"><img src="images/plate_kelaguen.jpg" alt="" /></td>
+                    <td class="plateImage">&nbsp;</td>
+                    <td class="plateImage">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="summary">Red Rice<br />Beef Kelaguen<br />Shrimp Kelaguen<br />Chicken Kelaguen</td>
+                    <td class="plateImage">&nbsp;</td>
+                    <td class="plateImage">&nbsp;</td>
+                </tr>
+            </table>
+
+            <h2><a id="sides">Sides</a></h2>
+            <div class="sides-container"> <!-- Nested within the section, add another section that will become a flex container for the horizontal items. -->
+                <div class="sides-1">
+                    <div class="sidesTitle">Musubi</div>
+                    <img src="images/sides_musubi.jpg" alt="" /><br />
+                    Red rice and marinated spam wrapped with sushi.
+                </div>
+                <div class="sides-2">
+                    <div class="sidesTitle">Pickled Papaya/Mango</div>
+                    <img src="images/sides_pickles.jpg" alt="" /><br />
+                    Marinated pickles or mango with vinegar and salt.
+                </div>
+            </div>
+            <div class="sides-container">
+                <div class="sides-3">
+                    <div class="sidesTitle">Potato Salad</div>
+                    <img src="images/sides_potato_salad.jpg" alt="" /><br />
+                    Potato salad made with mayonnaise, relish, pimento, and olives.
+                </div>
+                <div class="sides-4">
+                    <div class="sidesTitle">Shrimp Patties</div>
+                    <img src="images/sides_shrimp_patties.jpg" alt="" /><br />
+                    A fried donut made with shrimp and mixed vegetables.
+                </div>
+                <div class="sides-5">
+                    <div class="sidesTitle">Titiyas</div>
+                    <img src="images/sides_titiyas.jpg" alt="" /><br />
+                    A flat bread made with flour. Best when slathered with butter.
+                </div>
+            </div>
+
+            <h2><a id="desserts">Desserts</a></h2>
+            <table class="desserts"> <!-- Nested within the section, add a table that appears below the flex container section. -->
+                <tr>
+                    <th class="dessertsTitle">Guyuria</th>
+                    <th class="dessertsTitle">Lantiyas</th>
+                    <th class="dessertsTitle">Pumpkin Turnover</th>
+                </tr>
+                <tr>
+                    <td class="dessertsImage"><img src="images/dessert_guyuria.jpg" alt="" /></td>
+                    <td class="dessertsImage"><img src="images/dessert_lantiyas.jpg" alt="" /></td>
+                    <td class="dessertsImage"><img src="images/dessert_pumpkin_turnover.jpg" alt="" /></td>
+                </tr>
+                <tr>
+                    <td class="summary">A mix between a cookie and candy.</td>
+                    <td class="summary">Pound cake lathered with homemade pudding made with carnation milk.</td>
+                    <td class="summary">Pumpkin in a turnover.</td>
+                </tr>
+            </table>
+
+        </section>
+        <footer> <!-- Nested within the section, add a footer element that appears at the bottom of the section. -->
+            <p>
+                Copyright &copy; 2018 Marianas Pacific Foods
+            </p>
+        </footer>
+    </div>
+    <div class="fixedsocialmedia">
+        <p>
+            <a href="contact.html"><img src="images/email.png" class="email" alt="" /></a>
+            <a href="http://facebook.com" target="_blank"><img src="images/facebook.png" class="facebook" alt="" /></a>
+            <a href="http://instagram.com" target="_blank"><img src="images/instagram.png" class="instagram" alt="" /></a>
+            <a href="http://twitter.com" target="_blank"><img src="images/twitter.png" class="twitter" alt="" /></a>
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+    <!--
+        OC CIS 155 Web Development I
+        Build on Concepts Project #3 (indicate which project this is for)
+
+        Student Name:   Heatherlynn Lizama
+        Date:           October 27, 2018
+
+        Filename: contact.html
+        Supporting files: sb.css, sbstyles.css, sblogo.png, mpf-1.jpg
+    -->
+
+    <meta charset="UTF-8" />
+    <meta name="description" content="Contact Marianas Pacific Foods" />
+    <meta name="keywords" content="Mariana Islands, Pacific, Food, Island Food, BBQ, Micronesia, Contact" />
+    <meta name="author" content="Heatherlynn Lizama" />
+
+    <title>Contact - Marianas Pacific Foods</title>
+
+    <link href="sb.css" type="text/css" rel="stylesheet" />
+    <link href="mystyles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html"><img src="images/logo.png" alt="Marianas Pacific Foods" /></a> <!-- logo is created and designed by me using photoshop. -->
+        </header>
+        <nav id="siteNav">
+            <ul>
+                <li class="newTopic"><a href="index.html">Home</a></li>
+                <li class="newTopic"><a href="menu.html">Plates</a></li>
+                <li class="newTopic"><a href="menu.html#sides">Sides</a></li>
+                <li class="newTopic"><a href="menu.html#desserts">Desserts</a></li>
+                <li class="newTopic"><a href="about.html">About</a></li>
+                <li class="newTopic"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="container-contact">
+                <div class="child-1">
+                    <p>
+                        We are a family operated mobile food vendor from the Mariana Islands serving Chamorro food in the Pacific Northwest.
+                        We have officially transitioned to "Marianas Pacific Foods" after operating for a year and a half under the name &mdash;
+                        "Amazil Chamorro Chow". You can find us for some flavorful BBQ plates at the Kitsap County's Annual Pacific Islander
+                        Festival every August.
+                    </p>
+                </div>
+                <div class="child-2">
+                    <form action="contact.html" method="get" name="contactform"> <!-- Nested within the section, add a form element that follows the article. You will make it so that the form appears on the right side of the article, per the wireframe (or appropriate to your proposed wireframe). -->
+                        <div class="formlabel"><label for="name">Name:</label></div>
+                        <div class="forminput"><input type="text" name="name" id="name" /></div>
+
+                        <div class="formlabel"><label for="email">Email:</label></div>
+                        <div class="forminput"><input type="text" name="email" id="email" /></div>
+
+                        <div class="formlabel"><label for="message">Message:</label></div>
+                        <div class="forminput"><textarea name="message" id="message"></textarea></div>
+
+                        <div class="formreset"><button type="reset">Reset</button></div>
+                        <div class="formsubmit"><button type="submit" name="submit">Submit</button></div>
+                    </form>
+                </div>
+            </div>
+            <p class="contactImg">
+                <img src="images/mpf-1.jpg" alt="Marianas Pacific Foods Crew" />
+            </p>
+        </section>
+        <footer>
+            <p>
+                Copyright &copy; 2018 Marianas Pacific Foods
+            </p>
+        </footer>
+    </div>
+    <div class="fixedsocialmedia">
+        <p>
+            <a href="contact.html"><img src="images/email.png" class="email" alt="" /></a>
+            <a href="http://facebook.com" target="_blank"><img src="images/facebook.png" class="facebook" alt="" /></a>
+            <a href="http://instagram.com" target="_blank"><img src="images/instagram.png" class="instagram" alt="" /></a>
+            <a href="http://twitter.com" target="_blank"><img src="images/twitter.png" class="twitter" alt="" /></a>
+        </p>
+    </div>
+</body>
+</html>
