@@ -350,7 +350,7 @@ textarea {
     overflow: auto;
     height: 100px;
     resize: none;
-    border: 1px solid #E7DDC7;
+    border: 1px solid #957238;
     font-family: Georgia, Verdana, Geneva, sans-serif;
     padding: 5px;
     font-size: 15px;
@@ -359,7 +359,7 @@ textarea {
 }
 
 input {
-    border: 1px solid #E7DDC7;
+    border: 1px solid #957238;
     height: 20px;
     font-family: Georgia, Verdana, Geneva, sans-serif;
     padding: 5px;
@@ -368,7 +368,7 @@ input {
 }
 
 button {
-    border: 1px solid #E7DDC7;
+    border: 1px solid #957238;
     background-image: linear-gradient(to bottom, #E7DDC7, rgba(241, 235, 221, 0.8));
     font-size: 15px;
     font-family: Georgia, Verdana, Geneva, sans-serif;
